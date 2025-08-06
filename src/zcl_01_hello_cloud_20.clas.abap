@@ -14,6 +14,7 @@ ENDCLASS.
 CLASS zcl_01_hello_cloud_20 IMPLEMENTATION.
   METHOD if_oo_adt_classrun~main.
     out->write( 'Hello Cloud' ) .
+    out->write( 'Hello Change' ) .
   ENDMETHOD.
 
 ENDCLASS.
