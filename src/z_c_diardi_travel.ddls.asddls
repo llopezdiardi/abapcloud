@@ -8,12 +8,18 @@ define root view entity Z_C_DIARDI_TRAVEL
 {
   key TravelUuid,
       TravelId,
+      @Consumption.valueHelpDefinition: [{ entity: { name: '/DMO/I_Agency_StdVH',
+                                                     element: 'AgencyID' },
+                                                     useForValidation: true }]
       AgencyId,
       CustomerId,
       BeginDate,
       EndDate,
       @Semantics.amount.currencyCode: 'CurrencyCode'
       BookingFee,
+      @Consumption.valueHelpDefinition: [{ entity: { name: 'I_CurrencyStdVH',
+                                                     element: 'Currency' },
+                                                     useForValidation: true }]
       CurrencyCode,
       @Semantics.amount.currencyCode: 'CurrencyCode'
       TotalPrice,

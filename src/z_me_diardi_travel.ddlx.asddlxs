@@ -57,11 +57,11 @@ annotate entity Z_C_DIARDI_TRAVEL with
          identification: [{ position: 70 }] }
   TotalPrice;
   
-  @UI: { lineItem:[ { position: 80, importance: #HIGH } ],
+  @UI: { lineItem:[ { position: 80, importance: #MEDIUM } ],
          identification: [{ position: 80 }] }
   Description;
   
-  @UI: { lineItem:[ { position: 90, importance: #HIGH } ],
+  @UI: { lineItem:[ { position: 90, importance: #MEDIUM } ],
          identification: [{ position: 90 }] }
   OverallStatus;
   

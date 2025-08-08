@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Travel"
+  },
+  "ui5AppDetails": {
+    "appId": "diardi.travel"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_C9FFC13A0B29A3EAE2C5F6D4F3C85B0F14093E47_TM",
+    "semanticObject": "Travel",
+    "action": "manage",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_C9FFC13A0B29A3EAE2C5F6D4F3C85B0F14093E47_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Travel"
+      }
+    }
+  ]
+}
